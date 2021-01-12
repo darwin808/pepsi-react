@@ -1,13 +1,94 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  padding: 0; margin: 0;
+  box-sizing: border-box;
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App{
+  background-color:hsl(205,100%,43%) ;
+  height: 100vh;
+  width:auto;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin: auto 5rem 2rem 5rem;
+  padding-top: 5rem;
+}
+
+.nav-links{
+  display: flex;
+
+}
+.nav-links li{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  list-style: none;
+  margin-left: 3rem;
+  font-size: large;
+}
+
+.body-container{
+  /* display: flex; */
+  margin: auto 5rem auto 5rem; 
+  display: grid;
+  grid-template-columns: 30rem 30rem 30rem ;
+  grid-gap: 10rem;
+}
+
+p{
+  color: white;
+
+}
+
+#para1{
+  font-size: 8rem;
+}
+
+#para2{
+  font-size: larger;
+  margin-top: 1rem;
+
+}
+
+#btn{
+  margin-top: 1rem;
+  font-size: 1.5rem;
+ padding: 10px 10px 10px 10px;
+ background-color: white;
+ border-radius: 40px;
+ border: 1px solid white;
+}
+
+#btn:hover , li,img{
+  cursor: pointer;
+}
+
+.soc-links{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30px;
+  color: white;
+}
+
+.foobar{
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+
+}
+
+
+#mini1,#mini2,#mini3 {
+  height: 50px;
+  
+}
+
+#mini2{
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
